@@ -1,4 +1,4 @@
-FROM node:lts-slim as builder
+FROM node:lts-alpine as builder
 
 WORKDIR /opt/server
 COPY . .
